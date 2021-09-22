@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF04274726FBC8B5009BBADA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CF04274626FBC8B5009BBADA /* README.md */; };
+		CF04274C26FBC8F1009BBADA /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF04274B26FBC8F1009BBADA /* image1.png */; };
+		CF04274E26FBC965009BBADA /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = CF04274D26FBC965009BBADA /* LICENCE */; };
+		CF4B296C26FB75D700C22B8C /* MXSound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4B296726FB74CF00C22B8C /* MXSound.framework */; };
+		CF4B296D26FB75D700C22B8C /* MXSound.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF4B296726FB74CF00C22B8C /* MXSound.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CF4D8F5826FAB91700DE240F /* MXTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D8F5726FAB91700DE240F /* MXTableCellView.swift */; };
+		CF4D8F5A26FABD0200DE240F /* songlist.json in Resources */ = {isa = PBXBuildFile; fileRef = CF4D8F5926FABD0200DE240F /* songlist.json */; };
+		CF4D8F5C26FAC1FA00DE240F /* nn1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF4D8F5B26FAC1FA00DE240F /* nn1.mp3 */; };
+		CF50B92B26FAB6ED003D667D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50B92A26FAB6ED003D667D /* AppDelegate.swift */; };
+		CF50B92D26FAB6F0003D667D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF50B92C26FAB6F0003D667D /* Assets.xcassets */; };
+		CF50B93026FAB6F0003D667D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF50B92E26FAB6F0003D667D /* MainMenu.xib */; };
+		CF50B93A26FAB6F0003D667D /* MusixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50B93926FAB6F0003D667D /* MusixTests.swift */; };
+		CF50B94426FAB6F0003D667D /* MusixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50B94326FAB6F0003D667D /* MusixUITests.swift */; };
+		CF50B94626FAB6F0003D667D /* MusixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50B94526FAB6F0003D667D /* MusixUITestsLaunchTests.swift */; };
+		CF50B95426FAB70F003D667D /* MXWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50B95226FAB70F003D667D /* MXWindowController.swift */; };
+		CF50B95526FAB70F003D667D /* MXWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF50B95326FAB70F003D667D /* MXWindowController.xib */; };
+		CF50B95826FAB7BF003D667D /* MXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50B95626FAB7BF003D667D /* MXViewController.swift */; };
+		CF50B95926FAB7BF003D667D /* MXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF50B95726FAB7BF003D667D /* MXViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF4B296626FB74CF00C22B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4B296126FB74CE00C22B8C /* MXSound.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CF4B294926FB74CD00C22B8C;
+			remoteInfo = MXSound;
+		};
+		CF4B296826FB74CF00C22B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4B296126FB74CE00C22B8C /* MXSound.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CF4B295126FB74CE00C22B8C;
+			remoteInfo = MXSoundTests;
+		};
+		CF50B93626FAB6F0003D667D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF50B91F26FAB6ED003D667D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF50B92626FAB6ED003D667D;
+			remoteInfo = Musix;
+		};
+		CF50B94026FAB6F0003D667D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF50B91F26FAB6ED003D667D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF50B92626FAB6ED003D667D;
+			remoteInfo = Musix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF4B296E26FB75D700C22B8C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF4B296D26FB75D700C22B8C /* MXSound.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF04274626FBC8B5009BBADA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CF04274B26FBC8F1009BBADA /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		CF04274D26FBC965009BBADA /* LICENCE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
+		CF4B296126FB74CE00C22B8C /* MXSound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MXSound.xcodeproj; path = MXSound/MXSound.xcodeproj; sourceTree = "<group>"; };
+		CF4D8F5726FAB91700DE240F /* MXTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXTableCellView.swift; sourceTree = "<group>"; };
+		CF4D8F5926FABD0200DE240F /* songlist.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = songlist.json; sourceTree = "<group>"; };
+		CF4D8F5B26FAC1FA00DE240F /* nn1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nn1.mp3; sourceTree = "<group>"; };
+		CF4D8F5D26FAC25A00DE240F /* Musix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Musix.entitlements; sourceTree = "<group>"; };
+		CF50B92726FAB6ED003D667D /* Musix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF50B92A26FAB6ED003D667D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF50B92C26FAB6F0003D667D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF50B92F26FAB6F0003D667D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CF50B93526FAB6F0003D667D /* MusixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF50B93926FAB6F0003D667D /* MusixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusixTests.swift; sourceTree = "<group>"; };
+		CF50B93F26FAB6F0003D667D /* MusixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF50B94326FAB6F0003D667D /* MusixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusixUITests.swift; sourceTree = "<group>"; };
+		CF50B94526FAB6F0003D667D /* MusixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF50B95226FAB70F003D667D /* MXWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXWindowController.swift; sourceTree = "<group>"; };
+		CF50B95326FAB70F003D667D /* MXWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MXWindowController.xib; sourceTree = "<group>"; };
+		CF50B95626FAB7BF003D667D /* MXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXViewController.swift; sourceTree = "<group>"; };
+		CF50B95726FAB7BF003D667D /* MXViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MXViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF50B92426FAB6ED003D667D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4B296C26FB75D700C22B8C /* MXSound.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50B93226FAB6F0003D667D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50B93C26FAB6F0003D667D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF04274A26FBC8CD009BBADA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF04274B26FBC8F1009BBADA /* image1.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CF4B293E26FB74C100C22B8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF4B296126FB74CE00C22B8C /* MXSound.xcodeproj */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF4B296226FB74CE00C22B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4B296726FB74CF00C22B8C /* MXSound.framework */,
+				CF4B296926FB74CF00C22B8C /* MXSoundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF50B91E26FAB6ED003D667D = {
+			isa = PBXGroup;
+			children = (
+				CF50B92926FAB6ED003D667D /* Musix */,
+				CF4B293E26FB74C100C22B8C /* Frameworks */,
+				CF04274A26FBC8CD009BBADA /* Images */,
+				CF04274D26FBC965009BBADA /* LICENCE */,
+				CF04274626FBC8B5009BBADA /* README.md */,
+				CF50B93826FAB6F0003D667D /* MusixTests */,
+				CF50B94226FAB6F0003D667D /* MusixUITests */,
+				CF50B92826FAB6ED003D667D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF50B92826FAB6ED003D667D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF50B92726FAB6ED003D667D /* Musix.app */,
+				CF50B93526FAB6F0003D667D /* MusixTests.xctest */,
+				CF50B93F26FAB6F0003D667D /* MusixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF50B92926FAB6ED003D667D /* Musix */ = {
+			isa = PBXGroup;
+			children = (
+				CF4D8F5D26FAC25A00DE240F /* Musix.entitlements */,
+				CF50B92A26FAB6ED003D667D /* AppDelegate.swift */,
+				CF50B92C26FAB6F0003D667D /* Assets.xcassets */,
+				CF50B92E26FAB6F0003D667D /* MainMenu.xib */,
+				CF50B95226FAB70F003D667D /* MXWindowController.swift */,
+				CF50B95326FAB70F003D667D /* MXWindowController.xib */,
+				CF50B95626FAB7BF003D667D /* MXViewController.swift */,
+				CF50B95726FAB7BF003D667D /* MXViewController.xib */,
+				CF4D8F5726FAB91700DE240F /* MXTableCellView.swift */,
+				CF4D8F5926FABD0200DE240F /* songlist.json */,
+				CF4D8F5B26FAC1FA00DE240F /* nn1.mp3 */,
+			);
+			path = Musix;
+			sourceTree = "<group>";
+		};
+		CF50B93826FAB6F0003D667D /* MusixTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF50B93926FAB6F0003D667D /* MusixTests.swift */,
+			);
+			path = MusixTests;
+			sourceTree = "<group>";
+		};
+		CF50B94226FAB6F0003D667D /* MusixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF50B94326FAB6F0003D667D /* MusixUITests.swift */,
+				CF50B94526FAB6F0003D667D /* MusixUITestsLaunchTests.swift */,
+			);
+			path = MusixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF50B92626FAB6ED003D667D /* Musix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF50B94926FAB6F0003D667D /* Build configuration list for PBXNativeTarget "Musix" */;
+			buildPhases = (
+				CF50B92326FAB6ED003D667D /* Sources */,
+				CF50B92426FAB6ED003D667D /* Frameworks */,
+				CF50B92526FAB6ED003D667D /* Resources */,
+				CF4B296E26FB75D700C22B8C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Musix;
+			productName = Musix;
+			productReference = CF50B92726FAB6ED003D667D /* Musix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF50B93426FAB6F0003D667D /* MusixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF50B94C26FAB6F0003D667D /* Build configuration list for PBXNativeTarget "MusixTests" */;
+			buildPhases = (
+				CF50B93126FAB6F0003D667D /* Sources */,
+				CF50B93226FAB6F0003D667D /* Frameworks */,
+				CF50B93326FAB6F0003D667D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF50B93726FAB6F0003D667D /* PBXTargetDependency */,
+			);
+			name = MusixTests;
+			productName = MusixTests;
+			productReference = CF50B93526FAB6F0003D667D /* MusixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF50B93E26FAB6F0003D667D /* MusixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF50B94F26FAB6F0003D667D /* Build configuration list for PBXNativeTarget "MusixUITests" */;
+			buildPhases = (
+				CF50B93B26FAB6F0003D667D /* Sources */,
+				CF50B93C26FAB6F0003D667D /* Frameworks */,
+				CF50B93D26FAB6F0003D667D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF50B94126FAB6F0003D667D /* PBXTargetDependency */,
+			);
+			name = MusixUITests;
+			productName = MusixUITests;
+			productReference = CF50B93F26FAB6F0003D667D /* MusixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF50B91F26FAB6ED003D667D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CF50B92626FAB6ED003D667D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					CF50B93426FAB6F0003D667D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CF50B92626FAB6ED003D667D;
+					};
+					CF50B93E26FAB6F0003D667D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CF50B92626FAB6ED003D667D;
+					};
+				};
+			};
+			buildConfigurationList = CF50B92226FAB6ED003D667D /* Build configuration list for PBXProject "Musix" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF50B91E26FAB6ED003D667D;
+			productRefGroup = CF50B92826FAB6ED003D667D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CF4B296226FB74CE00C22B8C /* Products */;
+					ProjectRef = CF4B296126FB74CE00C22B8C /* MXSound.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CF50B92626FAB6ED003D667D /* Musix */,
+				CF50B93426FAB6F0003D667D /* MusixTests */,
+				CF50B93E26FAB6F0003D667D /* MusixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CF4B296726FB74CF00C22B8C /* MXSound.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MXSound.framework;
+			remoteRef = CF4B296626FB74CF00C22B8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF4B296926FB74CF00C22B8C /* MXSoundTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MXSoundTests.xctest;
+			remoteRef = CF4B296826FB74CF00C22B8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF50B92526FAB6ED003D667D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF04274E26FBC965009BBADA /* LICENCE in Resources */,
+				CF4D8F5C26FAC1FA00DE240F /* nn1.mp3 in Resources */,
+				CF04274C26FBC8F1009BBADA /* image1.png in Resources */,
+				CF50B92D26FAB6F0003D667D /* Assets.xcassets in Resources */,
+				CF50B95926FAB7BF003D667D /* MXViewController.xib in Resources */,
+				CF04274726FBC8B5009BBADA /* README.md in Resources */,
+				CF50B95526FAB70F003D667D /* MXWindowController.xib in Resources */,
+				CF4D8F5A26FABD0200DE240F /* songlist.json in Resources */,
+				CF50B93026FAB6F0003D667D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50B93326FAB6F0003D667D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50B93D26FAB6F0003D667D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF50B92326FAB6ED003D667D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4D8F5826FAB91700DE240F /* MXTableCellView.swift in Sources */,
+				CF50B95426FAB70F003D667D /* MXWindowController.swift in Sources */,
+				CF50B95826FAB7BF003D667D /* MXViewController.swift in Sources */,
+				CF50B92B26FAB6ED003D667D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50B93126FAB6F0003D667D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF50B93A26FAB6F0003D667D /* MusixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50B93B26FAB6F0003D667D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF50B94426FAB6F0003D667D /* MusixUITests.swift in Sources */,
+				CF50B94626FAB6F0003D667D /* MusixUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF50B93726FAB6F0003D667D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF50B92626FAB6ED003D667D /* Musix */;
+			targetProxy = CF50B93626FAB6F0003D667D /* PBXContainerItemProxy */;
+		};
+		CF50B94126FAB6F0003D667D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF50B92626FAB6ED003D667D /* Musix */;
+			targetProxy = CF50B94026FAB6F0003D667D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF50B92E26FAB6F0003D667D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF50B92F26FAB6F0003D667D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF50B94726FAB6F0003D667D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF50B94826FAB6F0003D667D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CF50B94A26FAB6F0003D667D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Musix/Musix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B29PGN9AG4;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.Musix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CF50B94B26FAB6F0003D667D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Musix/Musix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B29PGN9AG4;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.Musix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CF50B94D26FAB6F0003D667D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B29PGN9AG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.MusixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musix.app/Contents/MacOS/Musix";
+			};
+			name = Debug;
+		};
+		CF50B94E26FAB6F0003D667D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B29PGN9AG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.MusixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musix.app/Contents/MacOS/Musix";
+			};
+			name = Release;
+		};
+		CF50B95026FAB6F0003D667D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B29PGN9AG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.MusixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Musix;
+			};
+			name = Debug;
+		};
+		CF50B95126FAB6F0003D667D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B29PGN9AG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.MusixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Musix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF50B92226FAB6ED003D667D /* Build configuration list for PBXProject "Musix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF50B94726FAB6F0003D667D /* Debug */,
+				CF50B94826FAB6F0003D667D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF50B94926FAB6F0003D667D /* Build configuration list for PBXNativeTarget "Musix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF50B94A26FAB6F0003D667D /* Debug */,
+				CF50B94B26FAB6F0003D667D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF50B94C26FAB6F0003D667D /* Build configuration list for PBXNativeTarget "MusixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF50B94D26FAB6F0003D667D /* Debug */,
+				CF50B94E26FAB6F0003D667D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF50B94F26FAB6F0003D667D /* Build configuration list for PBXNativeTarget "MusixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF50B95026FAB6F0003D667D /* Debug */,
+				CF50B95126FAB6F0003D667D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF50B91F26FAB6ED003D667D /* Project object */;
+}

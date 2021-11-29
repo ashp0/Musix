@@ -14,7 +14,6 @@
 		CF4B296D26FB75D700C22B8C /* MXSound.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF4B296726FB74CF00C22B8C /* MXSound.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF4D8F5826FAB91700DE240F /* MXTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D8F5726FAB91700DE240F /* MXTableCellView.swift */; };
 		CF4D8F5A26FABD0200DE240F /* songlist.json in Resources */ = {isa = PBXBuildFile; fileRef = CF4D8F5926FABD0200DE240F /* songlist.json */; };
-		CF4D8F5C26FAC1FA00DE240F /* nn1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF4D8F5B26FAC1FA00DE240F /* nn1.mp3 */; };
 		CF50B92B26FAB6ED003D667D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50B92A26FAB6ED003D667D /* AppDelegate.swift */; };
 		CF50B92D26FAB6F0003D667D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF50B92C26FAB6F0003D667D /* Assets.xcassets */; };
 		CF50B93026FAB6F0003D667D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF50B92E26FAB6F0003D667D /* MainMenu.xib */; };
@@ -79,7 +78,6 @@
 		CF4B296126FB74CE00C22B8C /* MXSound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MXSound.xcodeproj; path = MXSound/MXSound.xcodeproj; sourceTree = "<group>"; };
 		CF4D8F5726FAB91700DE240F /* MXTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXTableCellView.swift; sourceTree = "<group>"; };
 		CF4D8F5926FABD0200DE240F /* songlist.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = songlist.json; sourceTree = "<group>"; };
-		CF4D8F5B26FAC1FA00DE240F /* nn1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nn1.mp3; sourceTree = "<group>"; };
 		CF4D8F5D26FAC25A00DE240F /* Musix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Musix.entitlements; sourceTree = "<group>"; };
 		CF50B92726FAB6ED003D667D /* Musix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF50B92A26FAB6ED003D667D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -184,7 +182,6 @@
 				CF50B95726FAB7BF003D667D /* MXViewController.xib */,
 				CF4D8F5726FAB91700DE240F /* MXTableCellView.swift */,
 				CF4D8F5926FABD0200DE240F /* songlist.json */,
-				CF4D8F5B26FAC1FA00DE240F /* nn1.mp3 */,
 			);
 			path = Musix;
 			sourceTree = "<group>";
@@ -335,7 +332,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF04274E26FBC965009BBADA /* LICENCE in Resources */,
-				CF4D8F5C26FAC1FA00DE240F /* nn1.mp3 in Resources */,
 				CF04274C26FBC8F1009BBADA /* image1.png in Resources */,
 				CF50B92D26FAB6F0003D667D /* Assets.xcassets in Resources */,
 				CF50B95926FAB7BF003D667D /* MXViewController.xib in Resources */,
@@ -544,7 +540,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B29PGN9AG4;
 				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -573,7 +569,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B29PGN9AG4;
 				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";

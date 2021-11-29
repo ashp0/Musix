@@ -78,6 +78,7 @@ class MXViewController: NSViewController, NSTableViewDataSource, NSTableViewDele
 		song.sound?.volume = volumeSliderOutlet.floatValue
 	}
 	func playSong(i: Int? = nil) {
+        
 		if i == nil {
 			if (song.sound != nil) {
 				song.stop()
@@ -91,6 +92,7 @@ class MXViewController: NSViewController, NSTableViewDataSource, NSTableViewDele
 				song.stop()
 			}
 			slider.isEnabled = true
+            print(songList![i!].file.getURLPath)
 			song = MXSound(songList![i!].file.getURLPath)
 			song.play()
 			tableView.highlightCell(row: i!)

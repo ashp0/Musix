@@ -20,7 +20,9 @@ public class MXSound {
 	}
 	
 	public init(_ file: String) {
-		sound = NSSound(contentsOfFile: file, byReference: false)
+        let newFilePath = file.replacingOccurrences(of: " ", with: "%20")
+        print(newFilePath)
+		sound = NSSound(contentsOfFile: newFilePath, byReference: false)
 	}
 	
 	public func play() { sound?.play() }

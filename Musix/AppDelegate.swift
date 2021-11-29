@@ -39,3 +39,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 }
 
+
+func relaunch() {
+        if let path = Bundle.main.resourceURL?.deletingLastPathComponent().deletingLastPathComponent().absoluteString {
+                _ = Process.launchedProcess(launchPath: "/usr/bin/open", arguments: [path])
+                NSApp.terminate(nil)
+            }
+    }
+

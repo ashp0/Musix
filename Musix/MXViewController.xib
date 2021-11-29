@@ -24,6 +24,19 @@
                 <visualEffectView fixedFrame="YES" blendingMode="behindWindow" material="appearanceBased" state="followsWindowActiveState" translatesAutoresizingMaskIntoConstraints="NO" id="rT6-pF-Ecb">
                     <rect key="frame" x="0.0" y="-1" width="449" height="419"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cPQ-l4-YvN">
+                            <rect key="frame" x="352" y="391" width="98" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="squareTextured" title="Add Song..." bezelStyle="texturedSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="kAb-iz-kOM">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="addSong:" target="-2" id="Z2p-Ch-dXu"/>
+                            </connections>
+                        </button>
+                    </subviews>
                 </visualEffectView>
                 <scrollView fixedFrame="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="49" horizontalPageScroll="10" verticalLineScroll="49" verticalPageScroll="10" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="none" translatesAutoresizingMaskIntoConstraints="NO" id="6Hg-uX-SUu">
                     <rect key="frame" x="0.0" y="0.0" width="449" height="389"/>
@@ -173,7 +186,7 @@
                     </subviews>
                 </customView>
             </subviews>
-            <point key="canvasLocation" x="138.5" y="135.5"/>
+            <point key="canvasLocation" x="138.5" y="135"/>
         </customView>
     </objects>
     <resources>

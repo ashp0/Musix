@@ -24,6 +24,7 @@
 		CF50B95526FAB70F003D667D /* MXWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF50B95326FAB70F003D667D /* MXWindowController.xib */; };
 		CF50B95826FAB7BF003D667D /* MXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF50B95626FAB7BF003D667D /* MXViewController.swift */; };
 		CF50B95926FAB7BF003D667D /* MXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF50B95726FAB7BF003D667D /* MXViewController.xib */; };
+		CFB89F1D2755276500F5E00D /* appicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CFB89F1A2755276500F5E00D /* appicon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,8 @@
 		CF50B95326FAB70F003D667D /* MXWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MXWindowController.xib; sourceTree = "<group>"; };
 		CF50B95626FAB7BF003D667D /* MXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXViewController.swift; sourceTree = "<group>"; };
 		CF50B95726FAB7BF003D667D /* MXViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MXViewController.xib; sourceTree = "<group>"; };
+		CFB89F1A2755276500F5E00D /* appicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appicon.icns; sourceTree = "<group>"; };
+		CFB89F1E2755292E00F5E00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,8 +175,10 @@
 		CF50B92926FAB6ED003D667D /* Musix */ = {
 			isa = PBXGroup;
 			children = (
+				CFB89F1E2755292E00F5E00D /* Info.plist */,
 				CF4D8F5D26FAC25A00DE240F /* Musix.entitlements */,
 				CF50B92A26FAB6ED003D667D /* AppDelegate.swift */,
+				CFB89F1A2755276500F5E00D /* appicon.icns */,
 				CF50B92C26FAB6F0003D667D /* Assets.xcassets */,
 				CF50B92E26FAB6F0003D667D /* MainMenu.xib */,
 				CF50B95226FAB70F003D667D /* MXWindowController.swift */,
@@ -331,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB89F1D2755276500F5E00D /* appicon.icns in Resources */,
 				CF04274E26FBC965009BBADA /* LICENCE in Resources */,
 				CF04274C26FBC8F1009BBADA /* image1.png in Resources */,
 				CF50B92D26FAB6F0003D667D /* Assets.xcassets in Resources */,
@@ -532,7 +538,6 @@
 		CF50B94A26FAB6F0003D667D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Musix/Musix.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,7 +548,8 @@
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_FILE = Musix/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Ashwin Paudel. All rights reserved.";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -561,7 +567,6 @@
 		CF50B94B26FAB6F0003D667D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Musix/Musix.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -572,7 +577,8 @@
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_FILE = Musix/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Ashwin Paudel. All rights reserved.";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
